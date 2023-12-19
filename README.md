@@ -1,0 +1,3 @@
+This part of the project deals with scalable model deployment. A deep learning timeseries weather prediction model is trained and then deployed using the Flask backend, and containerised with Docker. 
+
+The files enable you to create an image and then run the docker container, which can then be deployed locally, on-premise, or to the cloud. Kubernetes services can be used to autoscale the number of containers and adjust to traffic using GCP GKE, AWS EKS or Azure AKS.
